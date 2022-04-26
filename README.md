@@ -1,6 +1,6 @@
 ![Visitor Badge](https://visitor-badges.glitch.me?username=bangkoor&repo=Sinta-Statistics-WP-Plugin&label=VISITOR&style=plastic&color=%23457BFF&token=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&contentType=svg)
 
-![License](https://img.shields.io/github/license/bangkoor/Sinta-Statistics-WP-Plugin?style=for-the-badge)
+[![License](https://img.shields.io/github/license/bangkoor/Sinta-Statistics-WP-Plugin?style=for-the-badge)](https://github.com/bangkoor/Sinta-Statistics-WP-Plugin/blob/main/license)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/bangkoor/Sinta-Statistics-WP-Plugin?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/bangkoor/Sinta-Statistics-WP-Plugin?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues-raw/bangkoor/Sinta-Statistics-WP-Plugin?style=for-the-badge)
