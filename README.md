@@ -28,7 +28,7 @@ Simply use shortcode and place it anywhere in your site (sidebar, page, or post)
 `[sinta id="(your SINTA ID)" link="yes"] `
 
 # Compatibility
-This plugin is tested works on WordPress 5.9.3
+This plugin is tested works on WordPress 5.9.3 running on php 7.3
 
 # Disclaimer
 This plugin is not submitted to WordPress plugin repository. By downloading and installing this plugin to your site, you are agree that you do it with your own risk.
