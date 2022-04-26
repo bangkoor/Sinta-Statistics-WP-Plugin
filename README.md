@@ -10,6 +10,11 @@
 # SINTA Statistics WordPress Plugin
 This is the plugin for displaying Science and Technology Index (SINTA) in WordPress site
 
+demo
+
+![Sinta Statistics Plugin Demo](https://drive.google.com/uc?export=view&id=13jnH4bizG8a2EY2SpBrWf49q8zedDUZA)
+
+
 # Installation
 ## Directly in WordPress dashboard
 1. Download as zip
