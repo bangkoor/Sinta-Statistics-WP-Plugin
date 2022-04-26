@@ -1,5 +1,9 @@
 ![Visitor Badge](https://visitor-badges.glitch.me?username=bangkoor&repo=Sinta-Statistics-WP-Plugin&label=VISITOR&style=plastic&color=%23457BFF&token=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&contentType=svg)
 
+![License](https://img.shields.io/github/license/bangkoor/Sinta-Statistics-WP-Plugin?style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/bangkoor/Sinta-Statistics-WP-Plugin/total?style=for-the-badge)
+
+
 # SINTA Statistics WordPress Plugin
 This is the plugin for displaying Science and Technology Index (SINTA) in WordPress site
 
