@@ -2,7 +2,7 @@
 This is the plugin for displaying Science and Technology Index (SINTA) in WordPress site
 
 # Installation
-##Directly in WordPress dashboard
+## Directly in WordPress dashboard
 1. Download as zip
 2. Upload to your WordPress plugin directory
 3. Activate
