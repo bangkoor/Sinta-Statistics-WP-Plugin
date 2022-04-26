@@ -22,7 +22,7 @@ Simply use shortcode and place it anywhere in your site (sidebar, page, or post)
 This plugin is tested works on WordPress 5.9.3
 
 # Disclaimer
-This plugin is not submitted to WordPress plugin repository. By downloading and installing this plugin to your site, you are agreeing that you will do it with your own risk.
+This plugin is not submitted to WordPress plugin repository. By downloading and installing this plugin to your site, you are agree that you do it with your own risk.
 
 # Credit
 This plugin use Simple HTML DOM Created by S.C. Chen ([Simple HTML DOM](https://simplehtmldom.sourceforge.io/))
