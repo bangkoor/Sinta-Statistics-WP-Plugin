@@ -9,8 +9,8 @@ if(!isset($_GET["user"]))
 # create and load the HTML
 include('simple_html_dom.php');
 $html = new simple_html_dom();
-$url = "https://sinta.ristekbrin.go.id/authors/detail?id=".$_GET['user']."&view=overview";
-
+$userID = filter_var($_GET['user'], FILTER_SANITIZE_STRING);
+$url = "https://sinta.kemdikbud.go.id/authors/detail?id=".$userID."&view=overview";
 $html->load_file($url);
 //echo $html;
 

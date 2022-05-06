@@ -1,66 +1,60 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
-	<link rel="stylesheet" href="plugin/chart.js/Chart.min.js">
-    <script src="plugin/chart.js/Chart.min.js"></script>
-	<!--<script src="./plugin/chart.js/plugins/chartjs-plugin-datalabels/src/chartjs-plugin-labels.js"></script>-->
-  </head>
-<body>
-<div class='row' id='row-0'> 
-	<div class='col-md-3' align="center">
-		<img src='https://sinta.ristekbrin.go.id/assets/img/sinta_logo.png' class='img-responsive' width="40%" align="center">
+	  <head>
+		<style>
+			.stat-label{
+				font-size:8pt;
+			}
+			.stat-val{
+				font-size:18pt;
+				font-weight:bold;
+			}
+		</style>
+	  </head>
+	<body>
+	<div class='row' id='row-0'> 
+		<div class='col-md-6'>
+			<span class="stat-label">Overall Score</span>
+			<h2 class="stat-val text-primary"><?php esc_attr_e( $array["overall score"] ); ?></h2>
+		</div> 
+		<div class='col-md-6'>
+			<span class="stat-label">3 Years Score</span>
+			<h2 class="stat-val text-primary"><?php esc_attr_e( $array["3 years score"] ); ?></h2>
+		</div> 
 	</div> 
-	<div class='col-md-3'>
-		<h2 class="text-primary"><?php echo $array["overall score"]; ?></h2>
-		<small>Overall Score</small>
+	<div class='row' id='row-1'> 
+		<div class='col-md-6'>
+			<span class="stat-label">Overall Score V2</span>
+			<h2 class="stat-val text-primary"><?php esc_attr_e( $array["overall score v2"] ); ?></h2>
+		</div> 
+		<div class='col-md-6'>
+			<span class="stat-label">3 Years Score V2</span>
+			<h2 class="stat-val text-primary"><?php esc_attr_e( $array["3 years score v2"] ); ?></h2>
+		</div> 
 	</div> 
-	<div class='col-md-3'>
-		<h2 class="text-primary"><?php echo $array["3 years score"]; ?></h2>
-		<small>3 Years Score</small>
+	<div class='row' id='row-2'> 
+		<div class='col-md-6'>
+			<span class="stat-label">Rank in National</span>
+			<h2 class="stat-val text-warning"><?php esc_attr_e( $array["rank national"] ); ?></h2>
+		</div> 
+		<div class='col-md-6'>
+			<span class="stat-label">3 Years National Rank</span>
+			<h2 class="stat-val text-warning"><?php esc_attr_e( $array["3 years national rank"] ); ?></h2>
+		</div> 
 	</div> 
-	<div class='col-md-3'></div> 
-</div> 
-<div class='row' id='row-1'> 
-	<div class='col-md-3'></div> 
-	<div class='col-md-3'>
-		<h2 class="text-primary"><?php echo $array["overall score v2"]; ?></h2>
-		<small>Overall Score V2</small>
-	</div> 
-	<div class='col-md-3'>
-		<h2 class="text-primary"><?php echo $array["3 years score v2"]; ?></h2>
-		<small>3 Years Score V2</small>
-	</div> 
-	<div class='col-md-3'>
-		<h2 class="text-primary"><?php echo $array["books"]; ?></h2>
-		<small>Books</small>
+	<div class='row' id='row-3'> 
+		<div class='col-md-6'>
+			<span class="stat-label">Rank in Affiliation</span>
+			<h2 class="stat-val text-success"><?php esc_attr_e( $array["rank in affiliation"] ); ?></h2>
+		</div> 
+		<div class='col-md-6'>
+			<span class="stat-label">3 Years Affiliation Rank</span>
+			<h2 class="stat-val text-success"><?php esc_attr_e( $array["3 years affiliation rank"] ); ?></h2>
+		</div> 
 	</div>
-</div> 
-<div class='row' id='row-2'> 
-	<div class='col-md-3'></div> 
-	<div class='col-md-3'>
-		<h2 class="text-warning"><?php echo $array["rank national"]; ?></h2>
-		<small>Rank in National</small>
-	</div> 
-	<div class='col-md-3'>
-		<h2 class="text-warning"><?php echo $array["3 years national rank"]; ?></h2>
-		<small>3 Years National Rank</small>
-	</div> 
-	<div class='col-md-3'>
-		<h2 class="text-warning"><?php echo $array["ipr"]; ?></h2>
-		<small>IPR</small>
+	<div class='row' id='row-4'>
+		<div class='col-md-12' align="right" style="display:<?php esc_attr_e( $linkDisplay; ?>;margin:10px;">
+			<a href="https://sinta.kemdikbud.go.id/authors/detail?id=<?php esc_attr_e( $id; ?>&view=overview" target="blank"><button type="button" class='btn btn-primary btn-sm' ><i class="fa fa-angle-right"></i> Visit My Sinta Profile</button></a>
+		</div>
 	</div>
-</div> 
-<div class='row' id='row-3'> 
-	<div class='col-md-3'></div> 
-	<div class='col-md-3'>
-		<h2 class="text-success"><?php echo $array["rank in affiliation"]; ?></h2>
-		<small>Rank in Affiliation</small>
-	</div> 
-	<div class='col-md-3'>
-		<h2 class="text-success"><?php echo $array["3 years affiliation rank"]; ?></h2>
-		<small>3 Years Affiliation Rank</small>
-	</div> 
-	<div class='col-md-3'></div> 
-</div>
-</body>
-</html>
+	</body>
+	</html>

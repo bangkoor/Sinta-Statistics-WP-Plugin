@@ -8,7 +8,7 @@
   License: GPLv2
 */
 
-require_once plugin_dir_path(__FILE__) . 'includes/sinta-functions.php';
+require_once plugin_dir_path(__FILE__) . 'sinta-functions.php';
 
 add_shortcode("sinta", "tampil_sinta"); 
 ?>
